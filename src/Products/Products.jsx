@@ -14,16 +14,7 @@ import Productimg from "../Assets/Images/Product01.jpg"
 
 const Products = () => {
 
-   useEffect(()=>{
-
-    axios.get("../SData/Sdata")
-    .then((response)=>{
-        console.log(response)
-
-    })
-
-   },[])
-
+   
 
 
 
