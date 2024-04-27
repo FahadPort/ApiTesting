@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+/* Product CSS Start */
+
+div#products {
+  padding: 100px 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.product-wrapper {
+  background: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.product-wrapper img {
+  width: 100%;
+  margin: 0 0 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.product-module {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.product-title h3 {
+  font-size: 24px;
+  line-height: 32px;
+  font-family: "Poppins";
+  font-weight: 500;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button.cta-btn {
+  border: unset;
+  color: #fff !important;
+  background: #1eabd5db !important;
+  padding: 10px 40px;
+  border-radius: 5px;
 }
+
+button.cta-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Product CSS End */
